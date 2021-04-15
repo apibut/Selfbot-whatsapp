@@ -72,8 +72,8 @@ const sleep = async (ms) => {
 }
 
 fakeimage = fs.readFileSync(`./lib/image/foto2.jpg`)
-fake = 'Simple Selfbot'
-prefix = 'z'
+fake = '𝐒𝐄𝐋𝐅𝐁𝐎𝐓-𝐈𝐒𝐀𝐋'
+prefix = 'Z'
 apikey = 'LindowApi' // Free Apikey!
 hit_today = []
 
@@ -176,17 +176,17 @@ megayaa.on('chat-update', async(lin) => {
 	    	
         // Ucapan Waktu
         const hour_now = moment().format('HH')
-        var ucapanWaktu = 'Pagi lindow'
+        var ucapanWaktu = 'Pagi Isal'
         if (hour_now >= '03' && hour_now <= '10') {
-          ucapanWaktu = 'Pagi lindow'
+          ucapanWaktu = 'Pagi Isal'
         } else if (hour_now >= '10' && hour_now <= '14') {
-          ucapanWaktu = 'Siang lindow'
+          ucapanWaktu = 'Siang Isal'
         } else if (hour_now >= '14' && hour_now <= '17') {
-          ucapanWaktu = 'Soree lindow'
+          ucapanWaktu = 'Soree Isal'
         } else if (hour_now >= '17' && hour_now <= '18') {
           ucapanWaktu = 'Selamat petang'
         } else if (hour_now >= '18' && hour_now <= '23') {
-          ucapanWaktu = 'Malam lindow'
+          ucapanWaktu = 'Malam Isal'
         } else {
           ucapanWaktu = 'Selamat Malam!'
         }
@@ -412,7 +412,7 @@ To view your speed
 
 51. *${prefix}sendkontak*
 To send kontak
-Usage : ${prefix}sendkontak @tag|Megacantikzz
+Usage : ${prefix}sendkontak @tag|Isal
 
 52. *${prefix}term*
 Term or exec
@@ -420,15 +420,15 @@ Usage : ${prefix}term ls
 
 53. *${prefix}setreply*
 To set fakereply text in menu
-Usage : ${prefix}setreply mega cantikzz
+Usage : ${prefix}setreply isalself
 
 54. *${prefix}setname*
 To set name your whatsapp account
-Usage : ${prefix}setname Megaa cantikzz
+Usage : ${prefix}setname isal uwu
 
 55. *${prefix}setbio*
 Set bio your whatsapp account
-Usage : ${prefix}setbio Mega best girlfriend >_<
+Usage : ${prefix}setbio no alone
 
 56. *${prefix}fdeface*
 Fakedeface web or situs
@@ -576,9 +576,9 @@ To view list image
 Get image from storage
 Usage : ${prefix}getimage Test
 
-Join Group : https://chat.whatsapp.com/LeVT7RBq6WU1s92NIwdhfd`
+Join Group : https://chat.whatsapp.com/L0soFw9o0HjHWULk5dEm2V`
             wa.FakeStatusImgForwarded(from, fakeimage, textnya, fake)
-            reply(`Join Group : https://chat.whatsapp.com/LeVT7RBq6WU1s92NIwdhfd`)
+            reply(`Join Group : https://chat.whatsapp.com/L0soFw9o0HjHWULk5dEm2V`)
                 break
             case 'otakuongoing':
                 o = await onGoing()
